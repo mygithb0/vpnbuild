@@ -1,0 +1,65 @@
+-
+-
+- 1买服务器VPS
+	- https://my.vultr.com/deploy/
+		- qswfm10001@tutanota.com
+		- Abanwagong12345
+			- Albert Shi
+			- 地址：
+			- Herrengasse 22, 3011 Bern, Switzerland
+			- 城市： Bern
+			- 国家：Switzerland
+			- 邮政编码：CH-3000
+			- 4950 5661 4502 1004
+			- 10/23
+			- 135
+		- +
+			- 选high frequancy
+			- 选日本节点 tokyo
+			- 选择debian 9x64
+			- 选6美金每月
+			- 勾选Enable IPv6
+			- 勾选Enable Private Networking
+			- 随便起一个名字
+			- 部署deploy now
+- 2检查服务器IP
+	- 用cmd命令提示符PIN一下这个地址
+	-
+	- Vultr里面双击这个节点的名称 进入
+	- 复制服务器IP地址
+	- cmd打开，输入:ping空格加服务器的IP地址
+		- ping通了就能用
+- 3接下来
+	-  [翻墙v2ray搭建经营套路](翻墙v2ray搭建经营套路.md)
+	-  服务器安装v2ray套路1（初级版容易被墙）或
+	- ​服务器安装v2ray套路1（初级版容易被墙）​
+- 3注册域名，绑定域名（为了不被墙）
+	- 域名注册 | Namesilo域名购买、Freenom免费域名申请及Cloudflare域名解析/免费CDN纯小白教程
+		- https://www.youtube.com/watch?v=xUJGJNeRUoY
+		- ​namesilo账号密码 我购买的namesilo域名 绑定服务器域名教程​
+		- ​ freenom账号密码 绑定服务器域名教程 ， 或+clouldfile绑定服务器域名教程 freenom注册账号密码教程 ​
+		- ​cloudfare账号密码clouldflare域名解析我的域名并隐藏IP步骤​
+		- ​我购买的vutlr云主机 账号 密码（搭建v2ray翻墙用）​
+- 域名申请正式tls套路
+	- ​域名申请证书tls套路 ​
+- 3.1链接服务器刷入v2ray 套路 2或3或4或5 选一个
+	- 接下来 服务器安装v2ray套路2（中级版不易被墙）
+		- ​服务器安装v2ray套路2（中级版不易被墙）​
+	- 或：服务器安装v2ray套路3（高级版不易被墙（））
+		- ​服务器安装v2ray套路3（高级版不易被墙（））​
+	- 或：服务器安装v2ray套路4（高级版不易被墙（））
+		- ​服务器安装v2ray套路4（高级版不易被墙（））​
+- 4打开clouldfile 用CDN隐藏IP 的方法套路
+	- ​cloudfare账号密码clouldflare域名解析我的域名并隐藏IP步骤​
+- v2ray trs流量不能和正常流量区分开教程
+	- https://www.youtube.com/watch?v=mITkl8XL_9w
+	- 连接v2ray以后输入命令：
+		- systemctl status v2ray
+-
+- 004最坚挺出国方式v2ray+websocket+cdn+tls系列教程之四：Ngnix、v2ray的安装和配置
+	- https://www.youtube.com/watch?v=pyNlzTIMUTc
+-
+-
+- 查看我自己IP的网址
+	- https://whatismyipaddress.com/ip/
+- [线路优化基础知识](线路优化基础知识.md)

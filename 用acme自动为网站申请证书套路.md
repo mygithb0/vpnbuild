@@ -1,0 +1,37 @@
+- 1.开始签发证书,注意请将example.com替换成你的域名
+	- acme.sh --issue -d example.com --standalone -k ec-256 --force
+	-
+- 出现下图说明你的证书签发成功
+	- ![image.png](../assets/image_1630132368183_0.png){:height 329, :width 577}
+	- 出现下图说明你的证书没有签发成功
+		- ![image.png](../assets/image_1630132408732_0.png){:height 323, :width 462}
+		-
+		-
+		-
+		-
+		- ​出现下图说明你的证书没有签发成功 操作方法​
+	-
+	-
+	-
+	- 图上有说明证书的位置在cd /root/.acme.sh/我的域名
+	- 不放心的话查看一下证书是否在
+		- cd /root/.acme.sh/我的域名_ecc
+	- 列出文件
+		- ls
+	- 可以看到证书的三个文件 就说明证书申请成功了
+		- ca.cer 我的域名.csr
+		- fullchain.cer 我的域名.conf 我的域名.csr.conf
+		- 我的域名.cer 我的域名.key
+	- 添加一个data文件夹装这三个证书,注意请将example.com替换成你的域名
+		- mkdir /data
+		- mkdir /data/我的域名
+			- “我的域名”后面的说明书也用example.com来表示
+		- 如果出现mkdir: cannot create directory ‘/data/我的域名’: No such file or directory
+			- 就先创建
+			- mkdir /data
+			- 再创建
+			- mkdir /data/我的域名
+	-
+	-
+	-
+-

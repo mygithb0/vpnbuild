@@ -1,0 +1,69 @@
+- VPN内部要用到的app以及账号密码 (Web 视图)
+-
+- 把这个页面做成链接分享给内部
+-
+-
+-
+- VPN内部要用到的手机app以及账号密码
+-
+-
+- github Jivochat group me
+	- ![image.png](../assets/image_1630133626925_0.png){:height 105, :width 82}
+	- github app用于修改网页
+		- ![image.png](../assets/image_1630133641925_0.png){:height 89, :width 86}
+	- jivochat app用于和顾客聊天
+		- ![image.png](../assets/image_1630133656012_0.png){:height 109, :width 116}
+		- 账号
+			- vpnkefuyouxiang1@hotmail.com
+		- 密码
+			- vpnkefu12345
+- quip用于在线记账和登记客户资料
+	- quip apk
+		- ![image.png](../assets/image_1630133675669_0.png){:height 114, :width 120}
+		- 账号
+			- vpnkefuyouxiang1@hotmail.com
+		- 密码
+			- vpnkefu12345A
+		- 财报
+			- https://kefu2.quip.com/MsPsA96zjaqt#WUYACAYtEZ3
+		- 客户资料
+			- https://kefu2.quip.com/Ox0dAzg9hpfQ#PQdACAynvwF
+-
+- google voice电话(用于收客户登录苹果账号的时的短信并把临时验证码告诉客户)
+	- google voice电话app
+		- ![image.png](../assets/image_1630133690141_0.png){:height 135, :width 119}
+		- 登录帐号：
+			- acoryjmfonhd@gmail.com
+		- 密码：
+			- vpnkefu12345
+		- 辅助邮箱：
+			- vpnkefuyouxiang1@hotmail.com
+		- 电话号码：
+		- +1 5074037966
+-
+- 苹果账号密码
+	- gongyong1@tutanota.com
+	- Aa520520C
+	- gongyong999
+	- xsas-bcgo-vrxc-kfwq
+-
+-
+-
+-
+-
+- 套餐说明
+-
+-
+-
+-
+- 支付地址
+- 支付宝
+- 微信支付
+- 银行转账
+- 比特币
+- USDT
+- XRP
+- 门罗币
+- 狗狗币
+- 我们的代币
+-

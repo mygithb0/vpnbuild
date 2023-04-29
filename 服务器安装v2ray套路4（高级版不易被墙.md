@@ -1,0 +1,86 @@
+- 现在用不了了，失败了
+	- 2020科学上网必备的6个一键脚本之三，v2ray+tls+nginx目前最安全、最稳定
+	- https://www.youtube.com/watch?v=DSEPPiyY_GM
+	- https://www.youtube.com/watch?v=SYAuvtF9wMY
+	-
+	-
+	-
+	-
+	-
+	-
+	- https://www.youtube.com/watch?v=9oLzZnRj-E4
+	-
+	-
+	-
+	-
+	-
+	- 完成Godaddy域名托管到clouldfile
+		- ​cloudfare账号密码clouldflare域名解析我的域名并隐藏IP步骤​
+			- Godaddy域名托管到clouldfile套路
+				- 进入godaddy网站》右上角我的用户名》我的产品
+				- 找到这个域名，例如：
+					- qwlfejlioujiuhghub.xyz
+					- djhjojponhcopjpopwokowkdokljjpjpijponline.xyz
+				- 点击DNS进入》把域名服务器改成cloudfile上的托管服务器名称
+				- qswfm10001@tutanota.com
+	-
+	-
+	-
+	- 下载XSHELL软件
+		- Q:\樊帅 谷歌云单独\Vultr搭建V2ray
+	- 安装XSHELL
+	- 打开XSHELL
+		- 文件》新建》主机那里输入服务器的IP复制过来》连接
+			- 输入IP地址 用户名 密码 。在Username那里 一般是root
+				-
+				-
+				- 例如：
+				-
+				-
+				- 45.32.150.152
+				- root
+				- S2]g3*s$+J6mxt#8
+				-
+				- djhjojponhcopjpopwokowkdokljjpjpijponline.xyz
+				-
+				-
+				-
+				-
+				-
+				-
+				-
+				-
+				-
+				-
+				-
+				-
+				-
+				- 出现root@vultr:
+					- 就是连接上了
+			- 输入一件安装指令：
+				-
+				-
+				- bash -c "$(curl -fsSL https://raw.githubusercontent.com/JeannieStudio/jeannie/master/v2ray-caddy-tls-ws.sh)"
+					-
+					-
+					- 这个是从jennie的 v2ray官网最新版本的github上找来的
+						- https://jeanniestudio.top/2020/04/11/Jeannie%E5%87%BA%E5%93%81-v2ray+tls+nginx+%E4%BC%AA%E8%A3%85%E7%BD%91%E7%AB%99%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC/
+				-
+				-
+				- 随便输入一个伪装网站的编号
+				- 输入这个VPS绑定的域名
+				- 输入一个常用邮箱
+					- qswfm10001@hutanota.com
+				- 输入o满意UUID
+				-
+				-
+				- 证书申请失败的解决方法
+				- https://www.youtube.com/watch?v=TDaosa498ko
+				-
+				-
+				-
+				-
+				-
+				-
+				-
+-

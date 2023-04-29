@@ -1,0 +1,254 @@
+-
+-
+- 发邮件生成网页
+- 到
+-
+- page@publishthis.email
+-
+-
+- 生成的网页网址
+-
+-
+-
+-
+- vpn使用教程
+-
+- 
+- 给石小伟
+- vpn使用教程 安卓手机         
+- https://www.publishthis.email/1-BJXFSwWOt
+
+
+
+
+
+-
+- 做到github上
+- 加入jivochat 聊天工具
+-
+-
+-
+-
+-
+-
+-
+-
+- 电使用方法说明书 从
+	- ​win10 苹果mac系统安装Q2ray​ 复制过来
+- mac电使用方法说明书 从
+	- ​win10 苹果mac系统安装Q2ray​ 复制过来
+-
+-
+-
+-
+- 参考
+	- ​win10 苹果mac系统安装Q2ray​
+-
+- 下面是复制的文字
+-
+-
+-
+- Android安卓手机，iphone苹果手机，电脑使用教程
+-
+- Android安卓手机使用教程
+	- 下载V2rayNG这个app
+		- ![image.png|300](../assets/image_1630133234333_0.png)
+		-
+	- 打开V2rayNG
+		- ![image.png|300](../assets/image_1630133242070_0.png)
+	- 点击右上角的+号
+		- 手动输入VLESS
+			- ![image.png|300](../assets/image_1630133251313_0.png)
+			- ![image.png|300](../assets/image_1630133259736_0.png)
+			-
+		- 把下面这些填进去：
+			- 别名：
+				- 1
+			- 地址：
+				- www.ribenjapan101.xyz
+			- 端口:
+				- 443
+			- 用户ID:
+				- 0f0d4f16-0d58-4b92-aee7-6613aa4ee13c
+			- 流控（空着不填）:
+				-
+			- 加密:
+				- none
+			- 传输协议:
+				- tcp
+			- 伪装域名（空着不填）:
+				-
+			- path（ws path/h2 path）/QUIC 加密密钥/kcp seed:
+				- /path
+			- 底层传输安全（tls）:
+				- tls
+			- 跳过证书验证:
+				- false
+			- SNI（空着不填）:
+				-
+		-
+		- 就可以用了
+		-
+		-
+		-
+		-
+		-
+- iphone苹果手机使用教程
+	- 苹果账号
+	- app store 登录设个 公用账号（注意不要登录iclould）
+		- 手机 设置》登录apple账号》输入
+			-
+			- gongyong1@tutanota.com
+			- Aa520520C
+			-
+			- 选接收语音验证码
+			- 我收到后会告诉你这个验证码
+			-
+		- 打开app store
+			- ![image.png|300](../assets/image_1630133276835_0.png)
+			- 点击右上角的登录按键
+				- ![image.png|300](../assets/image_1630133284130_0.png)
+			- 输入下面给的账号密码
+				- ![image.png|300](../assets/image_1630133290900_0.png)
+			- 输入这个账号密码
+				- gongyong1@tutanota.com
+				- Aa520520C
+				-
+				- 选接收语音验证码
+				- 我收到后会告诉你这个验证码
+			-
+			-
+			- 登录后
+				- 点击右下角搜索按钮
+				- ![image.png](../assets/image_1630133299206_0.png){:height 93, :width 88}
+				-
+			- 搜索shadowrocket这个软件
+				- ![image.png|300](../assets/image_1630133305810_0.png){: height 85, : width 93}
+				-
+				- 注意界面是这样的才是真的（如果不是这样的，说明是国产山寨的shadowrocket软件，不能用）
+					- ![image.png|300](../assets/image_1630133316791_0.png){: height 996, : width 330}
+					-
+				- 点击右上角的+号
+					- ![image.png|300](../assets/image_1630133356115_0.png){: height 719, : width 234}
+					-
+				- 把下面这些输入进去：
+					- 类型：
+						- VLESS
+					- 地址：
+						- www.ribenjapan101.xyz
+					- 端口：
+						- 443
+					- UUID：
+						- 4ce925a4-ce99-46d3-b418-21178076d357
+					- TLS：
+						- 打开
+				-
+				-
+				-
+				-
+				-
+				- 然后点击：完成
+				- 就可以使用了
+- 电脑使用方法说明书
+	- 1先下载QV2RAY软件
+		- qv2ray-2.6.3-win64.exe
+	- 2.下载Q2ray核心文件，下载后解压
+		- https://github.com/v2fly/v2ray-core/releases/download/v4.39.2/v2ray-windows-64.zip
+			- ![image.png|300](../assets/image_1630133374009_0.png)
+			- ![image.png|300](../assets/image_1630133379026_0.png)
+			- ![image.png|450](../assets/image_1630133384261_0.png)
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+	- 3.在QV2RAY安装的目录下 创建文件夹
+		- config
+			- 再在config里创建文件夹
+				- vcore
+		- ![image.png|600](../assets/image_1630133391760_0.png)
+		- ![image.png|350](../assets/image_1630133396784_0.png)
+		-
+		-
+		-
+		-
+	- 4.把下载的QV2RAY核心文件解压，解压后复制这些文件，进刚才创建的那个vcore文件包里（QV2RAY安装目录下/config/vcore)
+		- ![image.png|400](../assets/image_1630133406571_0.png)
+		-
+		- ![image.png|400](../assets/image_1630133411977_0.png)
+		-
+		-
+		-
+	- 3.打开Q2ray软件
+		- 将软件改成中文
+			- general settings》language
+	-
+	- 4.把下载的QV2RAY核心文件，添加加到QV2RAY软件里
+		- 首选项》内核设置》
+			-
+			- ![image.png|500](../assets/image_1630133418359_0.png)
+			-
+			- ![image.png|600](../assets/image_1630133423444_0.png)
+			-
+			- ![image.png|600](../assets/image_1630133428738_0.png)
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+	- 5.向Q2ray软件中手动输入节点
+		- 新建》手动输入》打开连接编辑器
+			- ![image.png|400](../assets/image_1630133433634_0.png){: height 522, : width 547}
+			- ![image.png|600](../assets/image_1630133439578_0.png)
+			-
+			-
+			-
+		- 输入以下信息
+			-
+			- 标签（随便写）
+				-
+			- 主机
+				- www.ribenjapan101.xyz
+			- 类型
+				- VLESS
+			- UUID
+				- 731fef45-1001-4bf6-acd5-e80634dc26c6
+			- 流控
+				- xtls-rprx-direct
+			- 端口
+				- 443
+			- 加密方式
+				- none
+			- 协议设置
+				- 传输协议
+					- tcp
+				- 伪装类型
+					- none
+			- TLS设置
+				- 勾选启用TLS
+					- ![image.png|600](../assets/image_1630133448650_0.png)
+-
+- linux使用教程xray核心
+	- 1
+	- 1
+	- 1
+	- 1
+-
+-
+-
+-如果出现
+  
+
+proxy/http: failed to read response from tile-service.weather.microsoft.com > io: read/write on closed pipe
+
+2022/03/02 21:22:26 127.0.0.1:60824 accepted //cdn.onenote.net:443 [www.ribenjapan101.xyz]
+-
+-
+-
+-
+-
+-
