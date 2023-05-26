@@ -16,3 +16,4 @@
 - [vless ws tls](vless%20ws%20tls)
 - [vless ws tls5](vless%20ws%20tls5)
 - [naive搭建方法2](naive搭建方法2.md)
+- [naive搭建方法3](naive搭建方法3.md)
