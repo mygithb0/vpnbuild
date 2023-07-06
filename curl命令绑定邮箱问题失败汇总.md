@@ -28,7 +28,7 @@ apt-get update -y && apt-get install curl -y
 
 如果apt-get update失败就用
 
-[[DEBIAN源更新报错解决方法]]
+[DEBIAN源更新报错解决方法](DEBIAN源更新报错解决方法.md)
 
 ```
 apt-get --allow-releaseinfo-change update apt-get dist-upgrade
