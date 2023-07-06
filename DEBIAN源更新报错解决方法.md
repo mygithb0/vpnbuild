@@ -18,6 +18,6 @@ E: Repository ‘http://deb.debian.org/debian buster InRelease’ changed its �
 运行下面的命令成功解决
 
 ```
-apt-get --allow-releaseinfo-change update|
+apt-get --allow-releaseinfo-change update
 apt-get dist-upgrade
 ```
