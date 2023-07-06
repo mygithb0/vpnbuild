@@ -50,7 +50,7 @@ source ~/.bashrc
 
 例如
 ```
-.acme.sh/acme.sh --issue -d vpvpvp3.top --standalone -k ec-256
+.acme.sh/acme.sh --issue -d vpnvpn.top --standalone -k ec-256
 ```
 
 [申请域名失败问题汇总](申请域名失败问题汇总.md)

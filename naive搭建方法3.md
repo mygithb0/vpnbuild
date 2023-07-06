@@ -170,11 +170,11 @@ header_up  X-Forwarded-Host  {host}
 等caddy运行成功以后再加上
 例如
 ```
-:443, vpvpvp3.top
+:443, vpnvpn.top
 tls dxdll10001@hotmail.com 
 route {
  forward_proxy {
-   basic_auth dxdll10001 dxdll12345
+   basic_auth user password
    hide_ip
    hide_via
    probe_resistance
@@ -195,6 +195,10 @@ caddy run --config "/etc/caddy/Caddyfile"
 
 ###### 在/etc/systemd/system/目录下
 ###### 新建naive.service服务文件并配置
+
+```
+cd /etc/systemd/system/
+```
 
 ```
 # /etc/systemd/system/naive.service
@@ -230,6 +234,9 @@ WantedBy=multi-user.target
 chmod +x caddy
 mv caddy /usr/bin/
 ```
+
+
+
 
 
 ###### 启动caddy试试第2次
@@ -445,6 +452,102 @@ cd /etc/caddy/
 }
 ```
 
+或者
+
+```
+#  /etc/caddy/caddy_server.json
+//需删除注释内容caddy才能加载
+{
+ "apps": {
+   "http": {
+     "servers": {
+       "srv0": {
+         "listen": [
+           ":443"   //监听端口
+         ],
+         "routes": [
+           {
+             "handle": [
+               {
+                 "auth_user_deprecated": "user",   //用户名
+                 "auth_pass_deprecated": "pass",  //密码
+                 "handler": "forward_proxy",
+                 "hide_ip": true,
+                 "hide_via": true,
+                 "probe_resistance": {}
+               }
+             ]
+           },
+           {
+             "handle": [
+               {
+                 "handler": "reverse_proxy",
+                 "headers": {
+                   "request": {
+                     "set": {
+                       "Host": [
+                         "{http.reverse_proxy.upstream.hostport}"
+                       ],
+                       "X-Forwarded-Host": [
+                         "{http.request.host}"
+                       ]
+                     }
+                   }
+                 },
+                 "transport": {
+                   "protocol": "http",
+                   "tls": {}
+                 },
+                 "upstreams": [
+                   {
+                     "dial": "demo.cloudreve.org:443"  //伪装网址
+                   }
+                 ]
+               }
+             ]
+           }
+         ],
+         "tls_connection_policies": [
+           {
+             "match": {
+               "sni": [
+                 "vpnvpn.top"  //域名
+               ]
+             },
+             "certificate_selection": {
+               "any_tag": [
+                 "cert0"
+               ]
+             }
+           }
+         ],
+         "automatic_https": {
+           "disable": true
+         }
+       }
+     }
+   },
+   "tls": {
+     "certificates": {
+       "load_files": [
+         {
+           "certificate": "/data/vpnvpn.top/fullchain.crt",  //公钥路径
+           "key": "/data/vpnvpn.top/vpnvpn.top.key",   //私钥路径
+           "tags": [
+             "cert0"
+           ]
+         }
+       ]
+     }
+   }
+ }
+}
+```
+
+
+
+
+
 运行服务端
 
 ```
@@ -488,11 +591,9 @@ cd /etc/caddy/
 ### [TLS指纹查看和隐藏TLS指纹方法](TLS指纹查看和隐藏TLS指纹方法.md)
 
 
-[naiveproxy客户端nekoray](naiveproxy客户端nekoray.md)
 
 
 
 
-
-
+ # [naiveproxy客户端nekoray](naiveproxy客户端nekoray)
 
