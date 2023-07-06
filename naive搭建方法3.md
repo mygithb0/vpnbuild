@@ -6,7 +6,7 @@ naive的原理和[trojan](https://bulianglin.com/g/aHR0cHM6Ly95b3V0dS5iZS9ndzJWb
 https://bulianglin.com/archives/naive.html
 
 [安装acme.sh依赖的脚本的套路](安装acme.sh依赖的脚本的套路.md)
-# 1用[acme.sh安装证书套路](4logseq/4logseq-/acme.sh安装证书套路.md)
+# 1用[acmesh2安装证书套路](acmesh2安装证书套路.md)
 # 1[复制转换证书套路](复制转换证书套路.md)
 
 ## 2先切换到 root
