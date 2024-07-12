@@ -44,7 +44,7 @@ yum update && yum -y install socat
 
 
 
-# 用[acme.sh安装证书套路](4logseq/4logseq-/vpn/acme.sh安装证书套路.md)
+# 用[acme.sh2安装证书套路](4logseq/4logseq-/vpn/acme.sh2安装证书套路.md)
 
 # [复制转换证书套路](4logseq/4logseq-/复制转换证书套路.md)
 
