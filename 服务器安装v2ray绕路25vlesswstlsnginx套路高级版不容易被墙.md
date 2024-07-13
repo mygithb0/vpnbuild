@@ -2,8 +2,10 @@
 # [安装acmesh脚本](安装acmesh脚本.md)
 
 # 用[acmesh安装证书套路](acmesh安装证书套路.md)
+或者跳过此步骤购买一个证书
 
 # 用[复制转换证书套路](复制转换证书套路.md)
+或者跳过此步骤将购买的证书上传到复制后的位置
 
 # [安装nginx套路](安装nginx套路.md)
 
@@ -565,9 +567,9 @@ TLS设置 安全类型 选TLS
 ```
 vpvpvp.top
 ```
-path路径填前面设定的/ray
+path路径填前面设定的/ray/
 ```
-/ray
+/ray/
 ```
 底层传输安全 选tls 
 跳过证书验证 选false
